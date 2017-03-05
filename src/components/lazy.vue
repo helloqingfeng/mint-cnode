@@ -36,7 +36,7 @@
 		methods:{
 			getImg:function (){
 				var that=this;
-				that.$http.get("http://gank.io/api/data/%E7%A6%8F%E5%88%A9/30/1").then(response => {
+				that.$http.get("https://gank.io/api/data/%E7%A6%8F%E5%88%A9/30/1").then(response => {
 					this.list = response.body.results;
 				}, response => {
 				// error callback
