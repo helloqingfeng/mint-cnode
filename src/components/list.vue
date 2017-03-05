@@ -1,6 +1,6 @@
 <template>
 	<div class="page-cell">
-		<mt-cell class="textwidth" v-for="item in items" :title="item.title" is-link>
+		<mt-cell class="textwidth" v-for="item in items" :title="item.title" :to="'//cnodejs.org/topic/'+item.id" is-link>
 			<img slot="icon" v-bind:src="item.author['avatar_url']" width="24" height="24">
 		</mt-cell>
 	</div>

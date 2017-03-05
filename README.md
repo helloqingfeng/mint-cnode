@@ -1,6 +1,7 @@
 # mint-cnode
 
-> A Vue.js project
+> 使用基于 Vue.js 的移动端组件库Mint UI搭建的简版的cnode首页。
+> 目前只能显示首页文章标题，还有待完善。
 
 ## Build Setup
 
